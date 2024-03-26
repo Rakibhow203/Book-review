@@ -1,16 +1,17 @@
 import { CiStar } from "react-icons/ci";
 
+import { Link } from "react-router-dom";
+
 const Book = ({ book }) => {
   
-  const {image, bookName, author, rating,category,tags,tags2 } = book;
+  const {image, bookName, author, rating,category,tags,tags2,id } = book;
   return (
    
     <div>
-      {/* <img src={image} alt="" /> */}
 
-
-
-<div className="card w-96 p-5 bg-white shadow-xl border border-red-300">
+      
+      <div className="card w-96 p-5 bg-white shadow-xl border border-red-300">
+        <Link to= {`/Book/${id}`}> <button></button>
   <figure><img className=" h-52 p-7 bg-[#F3F3F3] " src= {image} alt="book" /></figure>
   <div className="card-body">
           <div className="flex gap-12 text-[#23BE0A] text-xl font-bold"> 
@@ -23,13 +24,15 @@ const Book = ({ book }) => {
 
           <div className="flex text-black">
 
-            <p>{category}</p>
+            
+              <p>{category}</p>
             <p className="flex gap-3">
               <h1 className="flex justify-center items-center gap-2 text-xl" >{rating} <span className="text-2xl" ><CiStar /></span></h1>
               
             </p>
           </div>
-  </div>
+        </div>
+        </Link>
       </div>  
 
 
