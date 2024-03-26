@@ -8,7 +8,7 @@ const Header = () => {
         <li><a>Listed Books</a></li>
         <li><a>Pages to Read</a></li> */}
     
-    <li>
+    <li className="text-black">
   <NavLink to= "/" className={({ isActive }) =>
                   isActive
                     ? 'text-[#23BE0A] border border-green-400 p-2 rounded font-extrabold'
@@ -16,7 +16,7 @@ const Header = () => {
                 } >Home</NavLink>
     </li>
     
- <li>
+ <li className="text-black">
   <NavLink to = "/ListedBooks" className={({ isActive }) =>
                   isActive
                     ? 'text-[#23BE0A]  border border-green-400 p-2 rounded font-extrabold'
@@ -24,7 +24,7 @@ const Header = () => {
                 } >Listed Books</NavLink>
     </li>
     
-<li>
+<li className="text-black">
   <NavLink to = "/PagesToRead" className={({ isActive }) =>
                   isActive
                     ? 'text-[#23BE0A] border border-green-400 p-2 rounded font-extrabold'
@@ -32,6 +32,27 @@ const Header = () => {
                 } >Pages to Read</NavLink>
 </li>
   
+    
+<li className="text-black">
+  <NavLink to = "/ShareStory" className={({ isActive }) =>
+                  isActive
+                    ? 'text-[#23BE0A] border border-green-400 p-2 rounded font-extrabold'
+                    : 'font-bold'
+                } >Share Your Story</NavLink>
+    </li>
+    
+
+
+    <li className="text-black">
+  <NavLink to = "/Subscribe" className={({ isActive }) =>
+                  isActive
+                    ? 'text-[#23BE0A] border border-green-400 p-2 rounded font-extrabold'
+                    : 'font-bold'
+                } >Subscribe</NavLink>
+</li>
+
+
+
   </>
 
   return (
@@ -49,7 +70,7 @@ const Header = () => {
             
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <a className="btn btn-ghost text-xl text-black font-bold">Fantasy Book Review</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
