@@ -21,7 +21,7 @@ const Books = () => {
       <h1 className="text-5xl font-bold text-black text-center mb-5 mt-10">Books </h1>
       
 
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid lg:grid-cols-3  md:grid-cols-2 gap-8">
       
         
         {

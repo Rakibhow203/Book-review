@@ -4,7 +4,9 @@ const ErrorPage = () => {
   return (
     <div>
       
-      
+     <section className="max-w-[1280px] mr-auto p-4" >
+
+        
 
 <section className="flex items-center h-full p-16 dark:bg-gray-50 dark:text-gray-800">
 	<div className="container flex flex-col items-center justify-center px-5 mx-auto my-8">
@@ -19,7 +21,10 @@ const ErrorPage = () => {
             </Link>
 		</div>
 	</div>
-</section>
+        </section>
+
+
+        </section> 
 
     </div>
   );
