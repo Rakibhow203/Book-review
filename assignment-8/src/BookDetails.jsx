@@ -11,8 +11,8 @@ const BookDetails = () => {
     <div className="mt-20 max-w-[1280px] mr-auto p-4">
      
       
-<div className="card bg-base-100 shadow-xl">
-    <div className="flex justify-center items-center gap-x-20">
+<div className="card bg-base-100 shadow-xl ">
+    <div className="grid lg:grid-cols-2 md:grid-cols-2 justify-center items-center gap-x-20">
         <div>    <figure><img className="w-92 h-96" src={book.image} alt="Movie" /></figure></div>
         
   <div className="card-body">
@@ -60,14 +60,14 @@ const BookDetails = () => {
           
 
           </div>
-<div className="flex
- gap-10  pr-2">
+<div className="grid grid-cols-2
+  ">
           <div className="card-actions ">
-      <button className="btn btn-primary text-white">Read</button>
+      <button className="btn btn-primary text-white ">Read</button>
           </div>
 
-      <div className="card-actions">
-      <button className="btn btn-primary text-white ">Wishlist</button>
+      <div className="card-action">
+      <button className="btn btn-primary text-white">Wishlist</button>
             </div>
 
             </div>

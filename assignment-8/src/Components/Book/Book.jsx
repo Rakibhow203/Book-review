@@ -12,7 +12,7 @@ const Book = ({ book }) => {
       
 
       
-      <div className="card w-96 p-5  shadow-xl border border-red-300">
+      <div className="card w-96 p-5  shadow-xl border border-[#23BE0A]">
         <Link to= {`/Book/${id}`}> <button></button>
   <figure><img className=" h-52 p-7 bg-[#F3F3F3] " src= {image} alt="book" /></figure>
   <div className="card-body">

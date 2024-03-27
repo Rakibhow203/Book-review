@@ -70,7 +70,7 @@ const Header = () => {
             
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl text-black font-bold">Fantasy Book Review</a>
+    <a className="btn btn-ghost lg:text-xl text-black font-bold">Fantasy Book Review</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -78,7 +78,7 @@ const Header = () => {
           
     </ul>
   </div>
-  <div className="navbar-end gap-6">
+  <div className="navbar-end lg:gap-6 sm:gap-3 md:mr-5">
         <a className="btn bg-[#23BE0A] text-white">Sin In</a>
         <a className="btn bg-[#59C6D2] text-white">Sing Up</a>
         
