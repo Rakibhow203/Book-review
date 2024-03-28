@@ -8,8 +8,8 @@
         "totalPages": 336,
         "rating": 4.5,
         "category": "Fiction",
-        "tags": ["Suspense"],
-        "tags2":["Psychological"],
+        "tags": ["#Suspense"],
+        "tags2":["#Psychological"],
         "publisher": "Celadon Books",
         "yearOfPublishing": 2019
     },
@@ -22,8 +22,8 @@
         "totalPages": 352,
         "rating": 4.7,
         "category": "Biography",
-        "tags": ["Memoir"],
-        "tags2":["Inspiring"],
+        "tags": ["#Memoir"],
+        "tags2":["#Inspiring"],
         "publisher": "Random House",
         "yearOfPublishing": 2018
     },
@@ -36,8 +36,8 @@
         "totalPages": 400,
         "rating": 4.3,
         "category": "Fantasy",
-        "tags": ["Magic" ],
-        "tags2":["Romance"],
+        "tags": ["#Magic" ],
+        "tags2":["#Romance"],
         "publisher": "Anchor Books",
         "yearOfPublishing": 2011
     },
@@ -50,10 +50,10 @@
         "totalPages": 208,
         "rating": 4.6,
         "category": "Fiction",
-        "tags": ["Adventure"],
+        "tags": ["#Adventure"],
             
         
-         "tags2":["Philosophical"],
+         "tags2":["#Philosophical"],
 
         "publisher": "HarperOne",
         "yearOfPublishing": 1988
@@ -67,8 +67,8 @@
         "totalPages": 443,
         "rating": 4.8,
         "category": "Non-fiction",
-        "tags": ["History"],
-        "tags2":["Anthropology"],
+        "tags": ["#History"],
+        "tags2":["#Anthropology"],
         "publisher": "Harper",
         "yearOfPublishing": 2014
     },
@@ -81,8 +81,8 @@
         "totalPages": 328,
         "rating": 4.4,
         "category": "Fiction",
-        "tags": ["Dystopian"],
-        "tags2":["Political"],
+        "tags": ["#Dystopian"],
+        "tags2":["#Political"],
         "publisher": "Secker & Warburg",
         "yearOfPublishing": 1949
     },
@@ -95,8 +95,8 @@
         "totalPages": 384,
         "rating": 4.5,
         "category": "Science Fiction",
-        "tags": ["Space" ],
-        "tags2":["Adventure"],
+        "tags": ["#Space" ],
+        "tags2":["#Adventure"],
         "publisher": "Crown Publishing Group",
         "yearOfPublishing": 2011
     },
@@ -109,8 +109,8 @@
         "totalPages": 336,
         "rating": 4.2,
         "category": "Mystery",
-        "tags": ["Suspense" ],
-        "tags2":["Mystery"],
+        "tags": ["#Suspense" ],
+        "tags2":["#Mystery"],
         "publisher": "Riverhead Books",
         "yearOfPublishing": 2015
     },
@@ -123,8 +123,8 @@
         "totalPages": 336,
         "rating": 4.9,
         "category": "Classic",
-        "tags": ["Social"],
-         "tags2":[ "Coming Age"],
+        "tags": ["#Social"],
+         "tags2":[ "#Coming Age"],
         "publisher": "J. B. Lippincott & Co.",
         "yearOfPublishing": 1960
     }

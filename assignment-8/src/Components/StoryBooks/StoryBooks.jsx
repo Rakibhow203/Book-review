@@ -21,9 +21,9 @@ const StoryBooks = () => {
   return (
  <div className="max-w-[1280px] mr-auto p-4 ">
       
-      <h1 className="text-5xl font-bold text-black text-center mb-5  mt-10">Books Review & Shire Your Story : {StoryBooks.length} </h1>
+      <h1 className="text-5xl font-bold text-black text-center mb-5  mt-10">Books Review & Share Your Story : {StoryBooks.length} </h1>
       
-      <h1 className="text-center text-2xl font-bold mb-12 mt-12"> <span className="text-3xl font-extrabold text-green-600 ">LibraryThing </span>
+      <h1 className="text-center text-2xl font-bold mb-12 mt-12"> <span className="text-3xl font-extrabold text-green-600 ">LibraryFantasy </span>
 <br /> A Home For Your Books.</h1>
 
       <div className="grid lg:grid-cols-2 text-xl font-medium gap-6  ">

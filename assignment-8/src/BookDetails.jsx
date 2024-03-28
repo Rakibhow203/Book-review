@@ -1,4 +1,9 @@
+
+ import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
+
 import { useLoaderData, useParams } from "react-router-dom";
+import { saveHandleRead } from './Utility/LocalStorage';
 
 
 const BookDetails = () => {
@@ -6,7 +11,20 @@ const BookDetails = () => {
   const { id } = useParams();
   // const idInt = parseInt(id);
   const book = books.find(book => book.id === id);
-  console.log(book);
+  // console.log(book);
+
+  const handleWishlist = () => {
+    toast('You have Wishlist successfully');
+
+  };
+
+  const handleRead = () => {
+    saveHandleRead(id);
+    toast ('You have Read successfully')
+  }
+
+  
+
   return (
     <div className="mt-20 max-w-[1280px] mr-auto p-4">
      
@@ -63,17 +81,18 @@ const BookDetails = () => {
 <div className="grid grid-cols-2
   ">
           <div className="card-actions ">
-      <button className="btn btn-primary text-white ">Read</button>
+      <button  onClick={handleRead} className="btn btn-primary text-white ">Read</button>
           </div>
 
       <div className="card-action">
-      <button className="btn btn-primary text-white">Wishlist</button>
+      <button   onClick={handleWishlist} className="btn btn-primary text-white">Wishlist</button>
             </div>
 
             </div>
   </div>
 </div>
-</div>
+      </div>
+        <ToastContainer />
     </div>
   );
 };
