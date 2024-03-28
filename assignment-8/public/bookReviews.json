@@ -1,0 +1,134 @@
+
+[
+    {
+        "id": "001",
+        "bookName": "The Silent Patient",
+        "author": "Alex Michaelides",
+        "image": "https://i.ibb.co/jThNkp3/profile-fb-1457370155-d7b538b3cc10.jpg",
+        "review": "This book completely changed my perspective on life. The characters are so relatable, and the plot twists kept me on the edge of my seat.",
+        "interesting_story": "The author of this book wrote it while traveling the world, drawing inspiration from different cultures and experiences.",
+        "rating": 4.5,
+        "category": "Fiction",
+        "tags": ["Suspense"],
+        "tags2":["Psychological"],
+        "publisher": "Celadon Books",
+        "yearOfPublishing": 2019
+    },
+    {
+        "id": "002",
+        "bookName": "Educated: A Memoir",
+        "author": "Tara Westover",
+        "image": "https://i.ibb.co/VQz87Gp/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction-176420-1518.jpg",
+        "review": "An emotional rollercoaster from start to finish. I couldn't put it down!",
+       "interesting_story": "The book was initially rejected by multiple publishers before becoming a bestseller.",
+        "rating": 4.7,
+        "category": "Biography",
+        "tags": ["Memoir"],
+        "tags2":["Inspiring"],
+        "publisher": "Random House",
+        "yearOfPublishing": 2018
+    },
+    {
+        "id": "003",
+        "bookName": "The Night Circus",
+        "author": "Erin Morgenstern",
+        "image": "https://i.ibb.co/LYbc9ML/beautiful-woman-portrait-144627-33145.jpg",
+        "review": "A beautifully written masterpiece. The imagery painted by the author is simply breathtaking.",
+        "interesting_story": "The author wrote this book as a tribute to their late grandmother, incorporating her wisdom and stories into the narrative.",
+        "rating": 4.3,
+        "category": "Fantasy",
+        "tags": ["Magic" ],
+        "tags2":["Romance"],
+        "publisher": "Anchor Books",
+        "yearOfPublishing": 2011
+    },
+    {
+        "id": "004",
+        "bookName": "The Alchemist",
+        "author": "Paulo Coelho",
+        "image": "https://i.ibb.co/FKWYRpM/young-woman-black-dress-looking-camera-114579-64868.jpg",
+        "review": "Captivating from the first page to the last. I found myself emotionally invested in every character.",
+        "interesting_story": "The book was initially self-published before gaining mainstream attention through word-of-mouth recommendations.",
+        "rating": 4.6,
+        "category": "Fiction",
+        "tags": ["Adventure"],
+            
+        
+         "tags2":["Philosophical"],
+
+        "publisher": "HarperOne",
+        "yearOfPublishing": 1988
+    },
+    {
+        "id": "005",
+        "bookName": "Sapiens: A Brief History",
+        "author": "Yuval Noah Harari",
+        "image": "https://i.ibb.co/bg7gLLd/enthusiastic-joyful-surprised-woman-introduce-incredible-offer-pointing-finger-left-copy-space-smili.jpg",
+        "review": "A thrilling ride filled with suspense and intrigue. I couldn't predict the twists and turns!",
+         "interesting_story": "The author wrote this book while working a full-time job and raising three children.",
+        "rating": 4.8,
+        "category": "Non-fiction",
+        "tags": ["History"],
+        "tags2":["Anthropology"],
+        "publisher": "Harper",
+        "yearOfPublishing": 2014
+    },
+    {
+        "id": "006",
+        "bookName": "1984",
+        "author": "George Orwell",
+        "image": "https://i.ibb.co/JRFV6tD/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair-285396-896.jpg",
+        "review": "A chilling dystopian novel that remains disturbingly relevant.",
+        "interesting_story": "The author based this story on their own experiences overcoming adversity.",
+        "rating": 4.4,
+        "category": "Fiction",
+        "tags": ["Dystopian"],
+        "tags2":["Political"],
+        "publisher": "Secker & Warburg",
+        "yearOfPublishing": 1949
+    },
+    {
+        "id": "007",
+        "bookName": "The Martian",
+        "author": "Andy Weir",
+        "image": "https://example.com/image7.jpg",
+        "review": "An exhilarating survival story set on the Red Planet.",
+        "interesting_story": "The author spent years researching psychology and sociology to ensure the authenticity of the characters' motivations.",
+        "rating": 4.5,
+        "category": "Science Fiction",
+        "tags": ["Space" ],
+        "tags2":["Adventure"],
+        "publisher": "Crown Publishing Group",
+        "yearOfPublishing": 2011
+    },
+    {
+        "id": "008",
+        "bookName": "The Girl on the Train",
+        "author": "Paula Hawkins",
+        "image": "https://i.ibb.co/3sdnV5d/confident-african-businesswoman-smiling-closeup-portrait-jobs-career-campaign-53876-143280.jpg",
+        "review": "A gripping psychological thriller with unexpected twists.",
+        "interesting_story": "The book was originally written in a different language and later translated into English by a renowned linguist.",
+        "rating": 4.2,
+        "category": "Mystery",
+        "tags": ["Suspense" ],
+        "tags2":["Mystery"],
+        "publisher": "Riverhead Books",
+        "yearOfPublishing": 2015
+    },
+    {
+        "id": "009",
+        "bookName": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "image": "https://i.ibb.co/41w658P/surprised-happy-girl-pointing-left-recommend-product-advertisement-make-okay-gesture-176420-20191.jpg",
+        "review": "A powerful story about justice and morality in the American South.",
+        "interesting_story": "The author drew inspiration from their travels around the world, weaving together elements of different cultures into the story.",
+        "rating": 4.9,
+        "category": "Classic",
+        "tags": ["Social"],
+         "tags2":[ "Coming Age"],
+        "publisher": "J. B. Lippincott & Co.",
+        "yearOfPublishing": 1960
+    }
+]
+
+  

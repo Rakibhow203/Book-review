@@ -4,9 +4,13 @@ import { Link } from "react-router-dom";
 
 const Book = ({ book }) => {
   
-  const {image, bookName, author, rating,category,tags,tags2,id } = book;
+  const { image, bookName, author, rating, category, tags, tags2, id } = book;
+  
+  console.log(book);
   return (
    
+    
+
     <div>
 
       

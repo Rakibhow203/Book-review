@@ -16,6 +16,7 @@ import MainLayout from './assets/MainLayout';
 import Books from './Components/Books/Books';
 import BookDetails from './BookDetails';
 import ErrorPage from './Components/ErrorPage/ErrorPage';
+import StoryBooks from './Components/StoryBooks/StoryBooks';
 
 
 
@@ -45,6 +46,13 @@ const router = createBrowserRouter([
         path: '/PagesToRead',
         element: <PagesToRead></PagesToRead>,
       },
+      {
+        path: '/ShireStory',
+        element: <StoryBooks></StoryBooks>,
+      },
+
+
+      
       {
   
        path: '/Book/:id',

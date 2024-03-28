@@ -18,7 +18,7 @@ const Books = () => {
    
    <div className="max-w-[1280px] mr-auto p-4">
       
-      <h1 className="text-5xl font-bold text-black text-center mb-5 mt-10">Books </h1>
+      <h1 className="text-5xl font-bold text-black text-center mb-5 mt-10">Books:{books.length} </h1>
       
 
       <div className="grid lg:grid-cols-3  md:grid-cols-2 gap-8">

@@ -33,14 +33,7 @@ const Header = () => {
 </li>
   
     
-<li className="text-black">
-  <NavLink to = "/ShareStory" className={({ isActive }) =>
-                  isActive
-                    ? 'text-[#23BE0A] border border-green-400 p-2 rounded font-extrabold'
-                    : 'font-bold'
-                } >Share Your Story</NavLink>
-    </li>
-    
+
 
 
     <li className="text-black">
@@ -51,6 +44,15 @@ const Header = () => {
                 } >Subscribe</NavLink>
 </li>
 
+    <li className="text-black">
+  <NavLink to = "/ShireStory" className={({ isActive }) =>
+                  isActive
+                    ? 'text-[#23BE0A] border border-green-400 p-2 rounded font-extrabold'
+                    : 'font-bold'
+                } >Share Your Story</NavLink>
+    </li>
+    
+    
 
 
   </>
